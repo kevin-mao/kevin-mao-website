@@ -125,3 +125,33 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
 }
 
+@media screen and (max-width: 480px) {
+    .home {
+        background-size: auto;
+        max-width: 100%;        
+        }
+    .img {
+        size: auto;
+    }
+
+     #img1, #img2, #img3, #im4 {
+        padding: 10px;
+    }
+
+    .pricingtop {
+         background-size: auto;
+         
+    }      
+
+}
+@media screen and (min-width: 750px) {
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    #img1, #img2, #img3, #im4 {
+        padding: 10px;
+    }
+
+}
