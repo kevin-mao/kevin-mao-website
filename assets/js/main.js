@@ -27,63 +27,47 @@ jQuery(document).ready(function ($) {
         }
     });
 
+   
+// Scrolly
+     $.localScroll();
 
+    $('.scrolly').scrolly({
+        speed: 1000,
+        offset: $navbar.height()
 
-    /*---------------------------------------------*
-     * STICKY scroll
-     ---------------------------------------------*/
+    });
+//hides mobile menu 
 
-    $.localScroll();
-
-
-
-    // Scrolly.
-        $('.scrolly').scrolly({
-            speed: 1000,
-            offset: $navbar.height()
-
-        });
-
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
 
 
     /*---------------------------------------------*
      * WOW
      ---------------------------------------------*/
 
-        var wow = new WOW({
-            mobile: false // trigger animations on mobile devices (default is true)
-        });
-        wow.init();
+    var wow = new WOW({
+        mobile: false // trigger animations on mobile devices (default is true)
+    });
+    wow.init();
 
 
-    /* ---------------------------------------------------------------------
-     Carousel
-     ---------------------------------------------------------------------= */
-
+//carousel
     $('.main_comments_content').owlCarousel({
         responsiveClass: true,
         autoplay: false,
         items: 1,
         loop: true,
         dots: true,
-	    nav:false,
-	    navText: [
+        nav:false,
+        navText: [
                     "<i class='lnr lnr-chevron-left'></i>",
                     "<i class='lnr lnr-chevron-right'></i>"
                 ],
       autoplayHoverPause: true
 
     });
-
-
-	    
-//$('#test').mixItUp({
-//    animation: {
-//      animateResizeContainer: false,
-//      effects: 'fade rotateX(-45deg) translateY(-10%)'
-//   }
-// });
-
 // main-menu-scroll
 
 	// jQuery(window).scroll(function () {
@@ -98,7 +82,7 @@ jQuery(document).ready(function ($) {
 	//   }
 	// });	 
 	
-// scroll Up
+// scroll Up fade
 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 600) {
@@ -111,6 +95,8 @@ jQuery(document).ready(function ($) {
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });	
+
+    //the gallery
 
     //  function openModal() {
     //   document.getElementById('myModal').style.display = "block";

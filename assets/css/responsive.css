@@ -11,7 +11,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 15px;
     }
     
-
 }
 
 /* Portrait tablets and small desktops */
@@ -19,13 +18,21 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 90%;
     }
-    
-    
-    
    
-
-
 }
+
+/*anything bigger*/
+@media (min-width: 769px) {
+   .column {
+        float: left;
+        width: 50%;
+    }
+
+    #img1, #img2, #img3, #im4 {
+        padding: 10px;
+    }
+}    
+
 /* Landscape phones and portrait tablets */
 @media (min-width:480px) and (max-width: 768px) {
     html {
@@ -68,7 +75,34 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
    
     
-  
+    .home {
+        background-size: auto;
+        max-width: 100%;        
+    }
+    .img {
+        size: auto;
+    }
+
+     #img1, #img2, #img3, #im4 {
+        padding: 10px;
+    }
+
+    .projects{
+        text-align:center;
+    }
+
+     .navbar-toggle {
+        position: absolute;
+        float: right;
+       
+        padding: 9px 10px;
+        right: 7%;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
    
 }
 
@@ -111,25 +145,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         border-radius: 50%;
     }
 
-   
-
-}
-
-
-
-@media (max-width: 320px) {
-
-
-    html {
-        font-size: 60.5%;
-    }
-}
-
-@media screen and (max-width: 480px) {
     .home {
         background-size: auto;
         max-width: 100%;        
-        }
+    }
     .img {
         size: auto;
     }
@@ -141,17 +160,32 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .pricingtop {
          background-size: auto;
          
-    }      
+    }     
 
-}
-@media screen and (min-width: 750px) {
-    .column {
-        float: left;
-        width: 50%;
+   .projects{
+        text-align:center;
     }
 
-    #img1, #img2, #img3, #im4 {
-        padding: 10px;
+    .navbar-toggle {
+        position: absolute;
+        float: right;
+       
+        padding: 9px 10px;
+        right: 7%;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
     }
 
 }
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+}
+

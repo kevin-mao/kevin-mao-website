@@ -47,14 +47,14 @@
                                 <div class="container-fluid">
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
-                                        <a class="icon-bar scrolly" href="#home">
-                                            <h1>
+                                        <a class="scrolly" href="#home">
+                                            <h1 style="color:white; padding-left: 7%;">
                                                 WELCOME!
                                             </h1>
                                         </a>
@@ -131,8 +131,11 @@
                                                         </div>
                                                         <p>
                                                             Email: km3290@columbia.edu
+                                                        </p>
+                                                        <p>
                                                             Feel free to contact me!
                                                         </p>
+                                        
                                                     </div>
 
                                                 </div>
@@ -175,26 +178,30 @@
         <section id="projects" class="service">
             <div  class="container">
                 <div class="row">
-                   <center>
-                        <div class="fadeIn">
-                            <h1 style="color:black; padding: 5px;">
+                   <div class="projects row single_about_right wow fadeIn" data-wow-duration="1.5s">
+                        <div class="row">
+                            <h1 style="padding: 10px; font-size: 45px;">
                                 Projects
                             </h1>
-                            <em>
-                                <h3 style="text-align:left; width:80%; padding:10px 10px;">
-                                Paean Health: Columbia SEAS Design Challenge Winner
-                                </h3>
-                            </em>
+                            <center>
+                                <em>
+                                    <h3 style="width:80%; padding:10px 10px;">
+                                    Paean Health: Columbia SEAS Design Challenge Winner
+                                    </h3>
+                                </em>
+                            </center>
                         </div>
-                        <img class='img fadeIn' id="opioid" src="./assets/images/opioid-combo-400.jpg" alt="opioid" style="padding: 5px;">
-                        <p style="width: 60%; font-size: 20px; text-align:left">
-                            <a href="http://engineering.columbia.edu/news/opioid-design-challenge">Paean Health</a>: Nicolas Acosta ’21, Vincent Guo ’21, Kevin Mao ’21, and Alaz Sengul ’21, is developing the X-Pouch, a small insert for prescription pill bottles that will deactivate unused pills for safe disposal
-                        </p>
+                        <center>
+                            <img id="opioid" src="./assets/images/opioid-combo-400.jpg" alt="opioid" style="padding: 5px;">
+                            <p style="width: 60%; font-size: 20px; text-align:left; line-height: 1.3em  ">
+                                <a href="http://engineering.columbia.edu/news/opioid-design-challenge"> <b> Paean Health: </b></a> Nicolas Acosta ’21, Vincent Guo ’21, Kevin Mao ’21, and Alaz Sengul ’21, is developing the X-Pouch, a small insert for prescription pill bottles that will deactivate unused pills for safe disposal
+                            </p>
+                        </center>
                         <!--        <h2 style="text-align:left;">
                             Under Construction... <i class="fas fa-wrench contactInfo"></i>
                         </h2> -->
                         
-                    </center >
+                    </div >
                 </div>
             </div>
         </section><!-- End of service Section -->
@@ -207,15 +214,15 @@
                             <div class="main_comments_content">
                                 <div class="single_comments text-center">
                                     <p>“I have no special talent. I am only passionately curious.”  </p>
-                                    <a href="">Albert Einstein</a>
+                                    <a href="https://www.youtube.com/watch?v=NyK5SG9rwWI">Albert Einstein</a>
                                 </div>
                                 <div class="single_comments text-center">
                                     <p>"It must be Thursday. I could never get the hang of Thursdays.”  </p>
-                                    <a href="">Douglas Adams</a>
+                                    <a href="https://youtu.be/YJWX1XiS-TU?t=46">Douglas Adams</a>
                                 </div>
                                 <div class="single_comments text-center">
                                     <p>“I have a bad feeling about this.”  </p>
-                                    <a href="">Obi-Wan Kenobi</a>
+                                    <a href="https://www.youtube.com/watch?v=Pqn3zMghf4A">Obi-Wan Kenobi</a>
                                 </div>
                             </div>
                         </div>
@@ -230,21 +237,23 @@
                     Other
                 </h1>
                 <h4 style="padding: 15px;">
+                    <i>
                     Google Pixel 2 Photography
+                    </i>
                 </h4>
                         <!-- Images used to open the lightbox -->
-                        <div class="row">
+                        <div class="row single_about_right wow fadeIn" data-wow-duration="1.5s">
                           <div class="column">
-                            <img id = "img1" src=".\assets\images\img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            <img id = "img1" src=".\assets\images\img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow fadeInLeft ">
                           </div>
                           <div class="column">
-                            <img id = "img2" src=".\assets\images\img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            <img id = "img2" src=".\assets\images\img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow fadeInLeft">
                           </div>
                           <div class="column">
-                            <img id = "img3" src=".\assets\images\img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                            <img id = "img3" src=".\assets\images\img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow fadeInRight">
                           </div>
                           <div class="column">
-                            <img id = "img4" src=".\assets\images\img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                            <img id = "img4" src=".\assets\images\img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow fadeInRight">
                           </div>
                         </div>
 
@@ -332,7 +341,6 @@
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.easypiechart.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
 
 
