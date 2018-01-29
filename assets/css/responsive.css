@@ -146,8 +146,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
 
     .home {
-        background-size: auto;
-        max-width: 100%;        
+        background-size: auto;     
     }
     .img {
         size: auto;
@@ -169,7 +168,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .navbar-toggle {
         position: absolute;
         float: right;
-       
         padding: 9px 10px;
         right: 7%;
         background-color: transparent;
@@ -178,7 +176,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         border-radius: 4px;
     }
 
+    .menuscroll {
+        border-bottom: transparent;
+    }
+
+    
+
 }
+
 
 
 @media (max-width: 320px) {

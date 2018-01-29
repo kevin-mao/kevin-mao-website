@@ -2,7 +2,7 @@
 /*
 
 Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
+Author URI: htpt://bootstrapthemes.co
 
 */
 /* ==========================================================================
@@ -19,6 +19,7 @@ body {
     margin-right: 0;
     font-family: 'roboto', sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
 }
 /*==========================================
 PRE LOADER 
@@ -525,9 +526,11 @@ input:-ms-input-placeholder {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: black;
     opacity: .9;
-
-    border-bottom: 1px solid white;
-	
+    border-bottom: 1px solid transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    text-align: center;
 }
 
 .main_menu_bg{
@@ -556,17 +559,18 @@ input:-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a{
     color: white;
     background-color: transparent;
-    border-bottom: white;
+    border-bottom: transparent;
     margin-bottom: -1px;
 	
 }
 
 
 
+
 /* Home Section */
 .home{
     background: url(../images/nyc.png);
-    background-size: 100% 100%;
+    background-size:cover;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
@@ -894,7 +898,7 @@ input:-ms-input-placeholder {
         
 }
 .abouts_area .single_about p{
-    font-size:1.5rem;
+    font-size:1.8rem;
     font-family: 'latothin';
     line-height: 1.3em;
     color: black;
@@ -915,8 +919,6 @@ input:-ms-input-placeholder {
     font-size:2.0625rem;
     color:#303030;
     margin-bottom: 0px;
-
-    
 }
 .abouts_area .single_team .team_deatels p{
     font-size:1.5rem;
@@ -934,7 +936,7 @@ input:-ms-input-placeholder {
 }
 .abouts_area .single_team .team_deatels .team_socail a i{
     color:black;
-    font-size:2rem;
+    font-size:3rem;
     padding: 5px;
 }
 .abouts_area .single_team .team_deatels .team_socail a:hover i{
