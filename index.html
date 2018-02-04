@@ -10,16 +10,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+        <!-- Fonts -->
         <link rel="stylesheet" href="assets/css/fonticons.css">
         <link rel="stylesheet" href="assets/fonts/stylesheet.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
         <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
-
 
         <!--For Plugins external css-->
         <link rel="stylesheet" href="assets/css/plugins.css" />
@@ -33,9 +30,6 @@
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body data-spy="scroll" data-target="#navmenu">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
         <!--Home page style-->
         <header id="main_menu" class="header">
@@ -47,14 +41,14 @@
                                 <div class="container-fluid">
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"      aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
                                         <a class="scrolly" href="#home">
-                                            <h1 style="color:white; font-weight: bold;">
+                                            <h1 id="logo">
                                                 WELCOME!
                                             </h1>
                                         </a>
@@ -64,7 +58,7 @@
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                         <ul class="nav navbar-nav navbar-right" >
-                                            <!-- <li class="navbar-brand"><a href="#home" class = "scrolly">Hello!</a></li> -->
+                
                                             <li class="active"><a href="#home" class = "scrolly" >Home</a></li>
                                             <li><a href="#about" class = "scrolly">About me</a></li>
                                             <li><a href="#projects" class = "scrolly">Projects</a></li>
@@ -81,7 +75,6 @@
 
             </div>
         </header> <!--End of header -->
-
 
 
         <section class="home" id="home">
@@ -103,7 +96,8 @@
             </div>
         </section><!-- End of Banner Section -->
 
-        <section id="about" class="domainsearce">
+<!-- About me section -->
+        <section id="about" class="about">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
@@ -162,24 +156,12 @@
             </div>
         </section>
 
-<!--         <section id="projects" class="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="main_pricing">
-
-                
-                        
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- End of Pricing Section -->
-
-        <section id="projects" class="service">
+<!-- Projects -->
+        <section  class="projects">
             <div  class="container">
                 <div class="row">
-                   <div class="projects row single_about_right wow fadeIn" data-wow-duration="1.5s">
-                        <div class="row">
+                   <div class="projects row single_about_right wow fadeIn" id="projects" data-wow-duration="1.5s">
+                        <div class="row" >
                             <h1 style="padding: 10px; font-size: 45px;">
                                 Projects
                             </h1>
@@ -194,37 +176,38 @@
                         <center>
                             <img id="opioid" src="./assets/images/opioid-combo-400.jpg" alt="opioid" style="padding: 5px;">
                             <p style="width: 70%; font-size: 20px; text-align:left; line-height: 1.3em  ">
-                                <a style="text-decoration: underline;" href="http://engineering.columbia.edu/news/opioid-design-challenge"> <b> Paean Health: </b></a> Nicolas Acosta ’21, Vincent Guo ’21, Kevin Mao ’21, and Alaz Sengul ’21, is a new start-up that won funding from Columbia University. We are developing the X-Pouch, a small insert for prescription pill bottles that will deactivate unused pills for safe disposal.
+                                <a style="text-decoration: underline;" href="http://engineering.columbia.edu/news/opioid-design-challenge"> <b> Paean Health </b></a> (Nicolas Acosta ’21, Vincent Guo ’21, Kevin Mao ’21, and Alaz Sengul ’21) is a new start-up that won funding from Columbia University. We are developing the X-Pouch, a small insert for prescription pill bottles that will deactivate unused pills for safe disposal.
                             </p>
                         </center>
-                        <!--        <h2 style="text-align:left;">
+                       <!--  <h2 style="text-align:left;">
                             Under Construction... <i class="fas fa-wrench contactInfo"></i>
                         </h2> -->
                         
                     </div >
                 </div>
             </div>
-        </section><!-- End of service Section -->
+        </section><!-- End of projects -->
 
-        <section class="comments">
+<!-- quotes section -->
+        <section class="quotes">
             <div class="overlay-fluid-block">
                 <div class="container">
                     <div class="row">
                         <div class="main_comments wow fadeInUp" data-wow-duration="1.5s">
                             <div class="main_comments_content">
-                                <div class="single_comments text-center">
+                                <div class="single_quotes text-center">
                                     <p>“I have no special talent. I am only passionately curious.”  </p>
                                     <a href="https://www.youtube.com/watch?v=NyK5SG9rwWI">Albert Einstein</a>
                                 </div>
-                                <div class="single_comments text-center">
+                                <div class="single_quotes text-center">
                                     <p>"It must be Thursday. I could never get the hang of Thursdays.”  </p>
                                     <a href="https://youtu.be/YJWX1XiS-TU?t=46">Author Dent</a>
                                 </div>
-                                <div class="single_comments text-center">
+                                <div class="single_quotes text-center">
                                     <p>“I have a bad feeling about this.”  </p>
                                     <a href="https://www.youtube.com/watch?v=Pqn3zMghf4A">Obi-Wan Kenobi</a>
                                 </div>
-                                <div class="single_comments text-center">
+                                <div class="single_quotes text-center">
                                     <p>
                                         "You miss 100% of the shots you don't take."- Wayne Gretzky
                                     </p>
@@ -237,7 +220,8 @@
             </div> 
         </section>
 
-        <section id = "other">
+<!-- other section -->
+        <section id = "other" class= "other">
             <div class = "container">
                 <h1 style="padding: 15px;">
                     Other
@@ -263,7 +247,7 @@
                           </div>
                         </div>
 
-                        <!-- The Modal/Lightbox -->
+                        <!-- Gallery section, may add later-->
                       <!--   <div id="myModal" class="modal">
                           <span class="close cursor" onclick="closeModal()">&times;</span>
                           <div class="modal-content">
@@ -318,9 +302,9 @@
                     
                 </div>
             </div>
-            
         </section>
 
+<!-- FOoter -->
         <section id="footer" class="footer sections">
             <div class="container">
                 <div class="row">
@@ -339,17 +323,15 @@
                     </div>
                 </div>   
             </div>
-        </section><!-- End of footer3 section -->
+        </section><!-- End of footer section -->
 
         <div class="scrollup">
             <a href="#home"><i class="fa fa-chevron-up"></i></a>
         </div>
-
+        <!-- js -->
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
-
-
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 

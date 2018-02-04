@@ -562,6 +562,11 @@ input:-ms-input-placeholder {
     border-bottom: transparent;
     margin-bottom: -1px;	
 }
+#logo {
+    color:white; 
+    font-weight: bold;
+    padding-left: 6%;
+}
 
 /* Home Section */
 .home{
@@ -634,6 +639,9 @@ input:-ms-input-placeholder {
 
 
 /* Abouts section */
+.about {
+    padding: 50px 0px;
+}
 .abouts_area{
     display: inline-block;
     border-top: 1px dashed #ddd;
@@ -702,23 +710,23 @@ input:-ms-input-placeholder {
 
 /* testimonial section */
 
-.comments{
+.quotes{
     background: url(../images/commnsbg.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
-.comments .single_comments p{
+.quotes .single_quotes p{
     max-width: 70%;
     margin: 20px auto;  
     color:#fff;
     font-size:1.25rem;
 }
-.comments .single_comments a{  
+.quotes .single_quotes a{  
     color:#fff;
     font-size:1.25rem;
 }
 
-.comments .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.quotes .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: transparent;
     border: 2px solid #fff;
 }
@@ -726,49 +734,11 @@ input:-ms-input-placeholder {
     background: #fff;
 }
 
-/* service section */
+/* projects section */
 
-.service{
-    padding: 80px 0px;
+.projects{
+    padding: 70px 0px;
 }
-.main_service{}
-.single_service{
-    margin-top: 20px;
-}
-.single_service .single_service_icon{
-    margin-bottom:30px;
-}
-.single_service .single_service_icon a i{
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 1.75rem;
-    color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    
-}
-.single_service .single_service_icon.icon_one a i{
-    background: #f1c40f;  
-}
-.single_service .single_service_icon.icon_two a i{
-    background: #0faff1;  
-}
-.single_service .single_service_icon.icon_three a i{
-    background: #95a5a6; 
-}
-.single_service .single_service_icon.icon_four a i{
-    background: #f1540f; 
-}
-.single_service .single_service_deatels h4{
-    font-size:1.125rem;
-    margin-bottom: 0px;
-    
-}
-.single_service .single_service_deatels p{
-    font-size: 1.01rem
-}
-
 
 /*footer section */
 .footer{
@@ -885,6 +855,11 @@ i:hover{
   content: "";
   display: table;
   clear: both;
+}
+
+/*other section*/
+.other {
+    padding: 60px 0px;
 }
 
 /* Create four equal columns that floats next to eachother */
