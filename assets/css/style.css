@@ -560,10 +560,8 @@ input:-ms-input-placeholder {
     color: white;
     background-color: transparent;
     border-bottom: transparent;
-    margin-bottom: -1px;
-	
+    margin-bottom: -1px;	
 }
-
 
 /* Home Section */
 .home{
@@ -613,6 +611,7 @@ input:-ms-input-placeholder {
     color: white;
     text-decoration: none;
 }
+
 
 
 

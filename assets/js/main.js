@@ -2,8 +2,6 @@
 
 
 jQuery(document).ready(function ($) {
-    jQuery('.navbar-fixed-top').addClass('menu-scroll');
-
     $(function() {
         $('.menuscroll').on('click').addClass('navbar-mobile')
     });
@@ -13,6 +11,24 @@ jQuery(document).ready(function ($) {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
+
+    // main-menu-scroll
+    if ($(window).width() > 800) {
+        jQuery(window).scroll(function () {
+            var top = jQuery(document).scrollTop();
+            var height = 20;
+          //alert(batas);
+            if (top > height) {
+                jQuery('.navbar-fixed-top').addClass('menu-scroll');
+              } else {
+               jQuery('.navbar-fixed-top').removeClass('menu-scroll');
+              }
+         }) 
+    } else {
+        jQuery('.navbar-fixed-top').addClass('menu-scroll');
+    };
+    
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -25,7 +41,9 @@ jQuery(document).ready(function ($) {
                     scrollTop: (target.offset().top - 40)
                 }, 1000);
                 if ($('.navbar-toggle').css('display') != 'none') {
+                    
                     $(this).parents('.container').find(".navbar-toggle").trigger("click");
+                    
                 }
                 return false;
             }
@@ -41,8 +59,6 @@ jQuery(document).ready(function ($) {
 
    
 // Scrolly
-     $.localScroll();
-
     $('.scrolly').scrolly({
         speed: 1000,
         offset: $navbar.height()
@@ -80,20 +96,7 @@ jQuery(document).ready(function ($) {
       autoplayHoverPause: true
 
     });
-// main-menu-scroll
 
-	// jQuery(window).scroll(function () {
-	//   var top = jQuery(document).scrollTop();
-	// 	var height = -1;
-	//   //alert(batas);
-	  
-	//   if (top > height) {
-		
-	//   } else {
-	//    jQuery('.navbar-fixed-top').removeClass('menu-scroll');
-	//   }
-	// });	 
-	
 // scroll Up fade
 
     $(window).scroll(function(){
