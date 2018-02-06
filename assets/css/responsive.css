@@ -52,10 +52,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .abouts_area .single_about {
         border-right: 0px dashed #ddd;
         padding-right: 0px;
-        max-width: 70%;
+        max-width: 85%;
         margin: 0 auto;
         padding-bottom: 20px;
-        text-align: center;
+        text-align: left;
     }
     .abouts_area .single_team{
         margin-top: 20px;
@@ -113,13 +113,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 65%;
     }
-    .abouts_area .single_about {
+
+   .abouts_area .single_about {
         border-right: 0px dashed #ddd;
         padding-right: 0px;
-        max-width: 70%;
+        max-width: 85%;
         margin: 0 auto;
         padding-bottom: 20px;
-        text-align: center;
+        text-align: left;
     }
     .footer .fo_bottom_right {
         border-right: 0px solid #686868;
@@ -175,6 +176,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         border: 1px solid transparent;
         border-radius: 4px;
     }
+
 }
 
 
