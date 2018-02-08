@@ -259,7 +259,7 @@ section .subtitle-half h5 {
 .overlay {
     background-color: rgba(0, 0, 0, 0.60);
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.60);
@@ -671,8 +671,8 @@ input:-ms-input-placeholder {
 
 
 .abouts_area .single_team .team_img img{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     border-radius: 50%;
     border: 5px solid black;
 }
