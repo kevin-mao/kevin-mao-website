@@ -31,7 +31,7 @@
     </head>
     <body data-spy="scroll" data-target="#navmenu">
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <!--Home page style-->
+       <!--Home page style-->
         <header id="main_menu" class="header">
             <div class="main_menu_bg navbar-fixed-top">
                 <div class="container">
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                             </nav>
-                        </div>	
+                        </div>  
                     </div>
 
                 </div>
@@ -84,9 +84,15 @@
                         <div class="main_slider_area">
                             <div class="slider">
                                 <div class="single_slider wow fadeIn" data-wow-duration="2s">
-                                    <h2 style="padding: 15px 5px;">KEVIN MAO</h2>
-                                    <p> Engineer - Entrepreneur - Researcher </p>
-                                    <img src="./assets/images/headshot4.jpg" alt="Kevin Mao"id="pfp">
+                                    <div class = "row name">
+                                        <h2 class=" element underline-left">KEVIN MAO</h2>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <img src="./assets/images/headshot4.jpg" alt="Kevin Mao" id="pfp">
+                                        <p> Engineer - Researcher - Hacker</p>
+                                    </div>
+                                    
                                 </div>
 
                             </div>
@@ -117,14 +123,26 @@
                                                     <div class="team_img">
                                                         <img src="./assets/images/headshot3.jpg" alt="Kevin Mao" />
                                                     </div>
-                                                    <div class="team_deatels">
-                                                        <div class="team_socail">
+                                                    <div class="details">
+                                                        <div class="social">
+                                                        	<p>
+                                                        	<b>
+                                                        		Columbia Engineering 2021
+                                                        	</b>
+                                                        		
+	                                                        	<br>
+	                                                        	Computer Science Major 
+	                                                        	<br>
+	                                                        	 Biomedical Engineering Minor
+	                                                        	<br>
+                                                        	</p>
                                                             <a href="https://www.linkedin.com/in/kevin-mao-a835a4149/"><i class="fab fa-linkedin"></i></a>
                                                             <a href="https://github.com/kevin-mao"><i class="fab fa-github"></i></a>
-                                                            <a href="https://drive.google.com/open?id=15hS7fjHsIDYScA_Y_nqngCPt5G79PTHD"><i class="fas fa-file-alt"></i></a>
+                                                            <a href="kevin-mao.pdf"><i class="fas fa-file-alt"></i></a>
                                                             <a href="mailto:km3290@columbia.edu"><i class="fas fa-envelope"></i></a>
                                                         </div>
                                                         <p style="font-size: 20px;">
+                                                        	
                                                             Feel free to contact me!
                                                         </p>
                                         
@@ -159,7 +177,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 >Projects</h1>
+                    <h1 style="padding-top: 8%;">Projects</h1>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -168,26 +186,81 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Columbia University | Egleston Scholar</p>
+                                <p style="font-size: 25px; color: black; line-height: 1.2em;">Columbia Entrepreneurship: Paean Health</p>
                             </div>
                         </div>
-                        <img src="assets/images/opioid-combo-400.jpg" class="img-responsive" alt="">
+                        <img src="assets/images/opioid-banner.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
+
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>Cognitive Computing Research at Oak Ridge Summer 2016</p>
+                                <p style="font-size: 25px; color: black; line-height: 1.2em;">Physical Chemistry Chemical Physics Publication</p>
                             </div>
                         </div>
-                        <img src="assets/images/pccp.PNG" class="img-responsive" alt="">
+                        <img src="assets/images/pccp.jpg" class="img-responsive" alt="nyu">
                     </a>
                 </div>
+
             </div>
+
         </div>
     </section>
 
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content" >
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Paean Health </h2>
+                            <hr class="star-primary">
+                            <img src="assets/images/opioid-combo-400.jpg" class="img-responsive img-centered" alt="paean health">
+                             <p style="font-size: 20px; text-align:left; line-height: 1.3em  ">
+                                <a style="text-decoration: underline;" href="http://engineering.columbia.edu/news/opioid-design-challenge"> <b> Paean Health </b></a> (Nicolas Acosta ’21, Vincent Guo ’21, Kevin Mao ’21, and Alaz Sengul ’21) is a new start-up that won funding through the Columbia Engineering Design Challenge. We are tackling the opioid criss by developing the X-Pouch, a small insert for prescription pill bottles that will deactivate unused pills for safe disposal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content" >
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+             <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Paramagnetic effects on the NMR spectra of isotropic bicelles</h2>
+                            <hr class="star-primary">
+                            <img src="assets/images/nmr.PNG" class="img-responsive img-centered" alt="paean health" style="size:50%;">
+                             <p style="font-size: 20px; text-align:left; line-height: 1.3em  ">
+                             	At the Tang Lab, at the College of Staten Island, I contributed to research on the effect of ions on the NMR spectra of bicelles. Bicelles are rings of fat molecules that mimic the cellular membrane and serve as useful platforms to study membrane proteins. The research was published 
+                                <a style="text-decoration: underline;" href="http://pubs.rsc.org/en/content/articlelanding/2016/cp/c6cp01443g#!divAbstract"> <b> here. </b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
 <!-- quotes section -->
         <section class="quotes">
             <div class="overlay-fluid-block">
@@ -200,8 +273,8 @@
                                     <a href="https://www.youtube.com/watch?v=NyK5SG9rwWI">Albert Einstein</a>
                                 </div>
                                 <div class="single_quotes text-center">
-                                    <p>"It must be Thursday. I could never get the hang of Thursdays.”  </p>
-                                    <a href="https://youtu.be/YJWX1XiS-TU?t=46">Author Dent</a>
+                                    <p>"Don't Panic!”  </p>
+                                    <a href="http://www.businessinsider.com/falcon-heavy-launch-falcon-heavy-roadster-says-dont-panic-on-the-dashboard-2018-2">The Official Hitchhiker's Guide to the Galaxy</a>
                                 </div>
                                 <div class="single_quotes text-center">
                                     <p>“I have a bad feeling about this.”  </p>
@@ -212,6 +285,12 @@
                                         "You miss 100% of the shots you don't take."- Wayne Gretzky
                                     </p>
                                         <a href="https://imgur.com/gallery/xByII">Michael Scott</a>
+                                </div>
+                                <div class="single_quotes text-center">
+                                    <p>
+                                        "I'm just trying to think of the future and not be sad."
+                                    </p>
+                                        <a href="https://www.youtube.com/watch?v=zIwLWfaAg-8">Elon Musk</a>
                                 </div>
                             </div>
                         </div>
@@ -314,7 +393,7 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-xs-12">
                                         <div class="single_right_footer wow fadeIn" data-wow-duration="1s">
-                                            <p> Just a personal website I designed with the help of the internet. Hope you enjoyed!</p>
+                                            <p style="color: white;"> Just a personal website I designed with the help of the internet. Hope you enjoyed!</p>
                                         </div>
                                     </div>
                                 </div>

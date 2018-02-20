@@ -158,6 +158,10 @@ h2 {
     line-height: 3rem;
     margin-bottom: .9rem;
 }
+
+.element-left-underline-right{
+    padding-top: 5%;
+}
 h3 {
     font-weight: 300;
     margin-bottom: .9rem;
@@ -580,8 +584,47 @@ input:-ms-input-placeholder {
     perspective: 2px;
 
 }
+.home h1 {
+    font-size: 90px;
+    color: white;
+}
+.element {
+    display: inline;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    -webkit-touch-callout: none; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -ms-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
 
-
+/* UNDERLINES */
+.underline-left:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 3px;
+  height: 3px; }
+.underline-left:hover:after, .underline-left:focus:after {
+  width: 100%;
+  height: 3px; }
+.underline-left:after {
+  right: 0%;
+  bottom: 0; }
+  
 .single_slider p{
     max-width: 70%;
     font-size: 2.375rem;
@@ -593,9 +636,13 @@ input:-ms-input-placeholder {
 
 .single_slider h2{
     color:#fff;
-    font-size:4.525rem;
+    font-size:6rem;
     font-family: 'latobold';
     margin-bottom:50px;
+}
+
+.name{
+    padding-top: 5%;
 }
 
 .main_slider_area .owl-theme .owl-dots {
@@ -618,6 +665,18 @@ input:-ms-input-placeholder {
     text-decoration: none;
 }
 
+.animatedSlow {
+  animation-delay: 1.2s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
 
 
 
@@ -627,16 +686,6 @@ input:-ms-input-placeholder {
     background: url(../images/pricingbg.jpg) no-repeat 40% 100%;
     background-size:cover;
 }
-/* Pricing Section */
-.pricing{
-    margin-top:-250px;
-}
-.pricing_content{
-    width:100%;
-    margin:0 auto;
-}
-
-
 
 
 /* Abouts section */
@@ -676,41 +725,41 @@ input:-ms-input-placeholder {
     border-radius: 50%;
     border: 5px solid black;
 }
-.abouts_area .single_team .team_deatels{
+.abouts_area .single_team .details{
     margin-top:0px;
 }
-.abouts_area .single_team .team_deatels h4{
+.abouts_area .single_team .details h4{
     font-size:2.0625rem;
-    color:#303030;
+    color:#3f03030;
     margin-bottom: 0px;
 }
-.abouts_area .single_team .team_deatels p{
+.abouts_area .single_team .details p{
     font-size:1.5rem;
-    font-family: 'latothin';
+    font-family: 'latolight';
     color: black;
     line-height: 1.3em;
 }
-.abouts_area .single_team .team_deatels .team_socail{
+.abouts_area .single_team .details .social{
     margin-left:-15px;
     display: inline-block;
 }
-.abouts_area .single_team .team_deatels .team_socail a{
+.abouts_area .single_team .details .social a{
     margin-left: 15px;
     display: inline-block;
 }
-.abouts_area .single_team .team_deatels .team_socail a i{
+.abouts_area .single_team .details .social a i{
     color:black;
     font-size:3rem;
     padding: 5px;
 }
-.abouts_area .single_team .team_deatels .team_socail a:hover i{
+.abouts_area .single_team .details .social a:hover i{
     color:#1f89ba;
 }
 
 
 
 
-/* testimonial section */
+/* quotes section */
 
 .quotes{
     background: url(../images/commnsbg.jpg) no-repeat 100% 100%;
@@ -738,10 +787,14 @@ input:-ms-input-placeholder {
 
 /* projects section */
 
+.img-responsive {
+    size: 0px 0px;
+}
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    padding-bottom: 5%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -756,7 +809,7 @@ input:-ms-input-placeholder {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #9bc4ff;
+    background: white;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -790,6 +843,91 @@ input:-ms-input-placeholder {
     z-index: 2;
 }
 
+.modal{
+    width: 5000px;
+  max-width: 100%;
+
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    width: 100%;        
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+
+    line-height: 1.3em;
+}
+
+.portfolio-modal .modal-content h3 {
+    margin: 0;
+    font-size: 2.1em;
+     line-height: 1.3em;
+}
+
+.portfolio-modal .modal-content h4 {
+    margin: 0;
+    font-size: 1em;
+    margin-top: 10px;
+     line-height: 1.3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
 
 /*footer section */
 .footer{
@@ -816,7 +954,7 @@ input:-ms-input-placeholder {
 	float:right;
 }
 .footer a, p{
-    color:#686868;
+    color:black;
 }
 .footer a:hover,
 i:hover{
@@ -890,12 +1028,12 @@ i:hover{
 
 
 #pfp {
-    width: 275px;
-    height: 275px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     position:relative;
     margin: 5%;
-     border: 5px solid white;
+    border: 5px solid white;
 }
 
 .row > .column {
