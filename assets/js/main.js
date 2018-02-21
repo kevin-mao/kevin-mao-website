@@ -111,6 +111,7 @@ jQuery(document).ready(function ($) {
         return false;
     });	
 
+    
     //the gallery
 
     //  function openModal() {
