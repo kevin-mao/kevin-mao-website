@@ -127,6 +127,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 70%;
     }
 
+    iframe{
+        width: 99%;
+        height: 315px;
+    }
 
    .abouts_area .single_about {
         border-right: 0px dashed #ddd;
