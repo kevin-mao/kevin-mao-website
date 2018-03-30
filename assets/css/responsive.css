@@ -119,6 +119,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .abouts_area .single_team .details .social a{
         font-size: 30px;
     }
+
+    .modal-body{
+        margin-top: 40px; 
+    }
 } 
 
 /* Landscape phones and smaller */

@@ -1,4 +1,4 @@
-
+    
 /*
 
 Author: Bootstrapthemes
@@ -123,32 +123,6 @@ a, p{
 img {
     max-width: 100%;
 }
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-.uneditable-input {
-    outline: none;
-}
-.form-control {
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 16px;
-    height: 45px;
-}
-.form-control:focus {
-    border-color: #f56363;
-}
 
 h1,
 h2,
@@ -156,6 +130,7 @@ h3 {
     /*font-family: 'Lane', sans-serif;*/
     font-weight: 300;
     margin: 0;
+    color:#2e6b8a;
 }
 h4,
 h5 {
@@ -279,7 +254,7 @@ section .subtitle-half h5 {
 .overlay {
     background-color: rgba(0, 0, 0, 0.60);
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.60);
