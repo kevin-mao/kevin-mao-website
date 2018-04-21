@@ -130,7 +130,7 @@ h3 {
     /*font-family: 'Lane', sans-serif;*/
     font-weight: 300;
     margin: 0;
-    color:#2e6b8a;
+    color:black;
 }
 h4,
 h5 {
@@ -191,6 +191,7 @@ p:last-child {
 .text {
     color: #333333;
 }
+
 .colorstext {
     color: #f56363;
 }
@@ -523,13 +524,15 @@ input:-ms-input-placeholder {
     opacity: .9;
     border-bottom: 1px solid transparent;
 }
-.navbar-default .navbar-collapse {
+/*collapse menu */
+.navbar-default .navbar-collapse { 
     border-color: transparent;
     text-align: center;
 }
 
 .main_menu_bg{
 	margin-top:0px;
+/*    text-align: center;*/
 }
 .main_menu_bg .navbar-default {
     background-color: transparent; 
@@ -541,7 +544,8 @@ input:-ms-input-placeholder {
 }
 .main_menu_bg .navbar {
     margin-bottom: 0px;
-	min-height: 90px;
+	min-height: 85px;
+/*    display: inline-block;*/
 }
 .main_menu_bg .container-fluid {
     margin-top: 20px;
@@ -918,13 +922,13 @@ input:-ms-input-placeholder {
 /*footer section */
 .footer{
     background: #2a2a2a;
-    padding: 80px 0px;
+    padding: 10px 0px;
 }
 .footer .main_footer{
     border-bottom: 1px solid #686868;
     display: inline-block;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-bottom: 50px;
 }
 .footer .footer_logo{
@@ -1031,7 +1035,9 @@ i:hover{
   display: table;
   clear: both;
 }
-
+.sections.footer {
+    padding-bottom: 10px;
+}
 /*other section*/
 .other {
     padding: 60px 0px;
