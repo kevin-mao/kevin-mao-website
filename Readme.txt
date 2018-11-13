@@ -1,4 +1,3 @@
-#My Personal Website#
+# My Personal Website#
 
-Check it out at:
-http://www.columbia.edu/~km3290/
+Check it out [here](http://www.columbia.edu/~km3290/)
